@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Resume</title>
+
+    <style>
+      body{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        text-size-adjust: 12px;
+      }
+      
+      .slider {
+        width: 700px;
+        height: 400px;
+        background-color: yellow;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .image-container {
+        width: 2100px;
+        background-color: pink;
+        height: 400px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+      }
+      .slide {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+      #slide-1:target ~ .image-container {
+        left: 0px;
+      }
+      #slide-2:target ~ .image-container {
+        left: -700px;
+      }
+      #slide-3:target ~ .image-container {
+        left: -1400px;
+      }
+      .buttons {
+        position: relative;
+        top: -20px;
+      }
+      .buttons a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: lightgreen;
+      }
+    </style>
+    
+  </head>
+  <body>
+    <div class="container">
+      <a id="top"></a>
+      <br>
+      <nav class="top" style="display: flex;">
+        <img src="https://drive.google.com/thumbnail?id=1ItCKTFVUgySPEhh_hFJjlytnIs0j8i1G&sz=w1000" height="200px" class="mr-3" style="border-radius: 50%">
+        <div>
+            <ul style="text-align: left;">
+              <br>
+            <h3 class="mt-0" style="color: blue;"><b>Shaik Arif</b></h3>
+            <h4 style="color: royalblue;"> Java Full Stack Developer | HR & IT Administration Professional</h4>
+            <span><br></span>
+            <span><i class="material-symbols-outlined" style="font-size: medium;color:blue;">home_pin</i> Hyderabad, lb.nagar</span><br>
+            <span><i class="material-symbols-outlined " style="font-size: medium;color: blue;">mail</i> shaikarief298@gmail.com</span><br>
+            <span><i class="material-icons" style="font-size: medium;color: blue;">phone</i> +919177393512</span><br>
+            <span><i class="fa fa-linkedin-square" style="font: size 30px; color: blue;"></i><a href="https://www.linkedin.com/in/shaik-arif-snist/"> Shaik-Arif</a></span><br>
+          </ul>
+          </div>
+      </nav>
+
+      <div class="d-flex p-2 bd-highlight">
+        <br><span>Motivated Java Full Stack Developer and HR professional with a strong foundation in back-end and 
+          front-end development, SQL databases, and statistical analysis. Proven ability to work independently 
+          and as part of a team, with strong problem-solving and organizational skills. Experienced in HR and IT 
+          Administration with a knack for client handling. Seeking to leverage my technical skills, HR experience, 
+          and ability to learn new technologies quickly in a challenging role.</span>
+      </div>
+      <hr style="background-color: black;">
+
+      <div Class="Technical Skills">
+        <h4><p class="badge badge-primary"><b>Technical Skills</b></p></h4>
+          <ol style="list-style-type:disc;">
+            <li><strong>BACK END DEVELOPMENT |</strong> Java, Spring boot, Python</li>
+            <li><b>FRONT END DEVELOPMENT |</b> HTML, CSS, Typescript, Angular</li>
+            <li><b>DATABASE MANAGEMENT |</b> MySQL</li>
+            <li><b>HR & IT ADMINISTRATION |</b> Client Handling, Team Management</li>
+            <li><b>MISCELLANEOUS |</b> Bootstrap, Node.js, Microsoft Excel, Microsoft Word</li>
+          </ol>
+      </div>
+      <hr style="background-color: black;">
+
+      <div class="Education">
+        <h4><p class="badge badge-primary"><b>Education</b></p></h4>
+        <p><b>BTECH in Electronics and Computer Engineering</b><br> Sreenidhi institute of science and technology • Hyderabad, Telangana </p>
+        <p><b>Intermediate, MPC</b><br> Sri Chaitanya Junior college</p>
+      </div>
+      <hr style="background-color: black;">
+
+      <div Class="Experience and Courses">
+        <h4><p class="badge badge-primary"><b>Experience and Courses</b></p></h4>
+          <ol style="list-style-type:disc;">
+            <li><b>HR & IT Administration | Career Axes Engineering Services | November 2023 – Present</b></li>
+            <li><b>Java Full Stack developer | Talent sprint | June 2023-November 2023</b></li>
+            <li><b>Programming for Everybody (Getting Started with Python), Coursera</b></li>
+          </ol>
+      </div>
+      <hr style="background-color: black;">
+
+      <div class="Projects">
+        <h4><p class="badge badge-primary"><b>Projects</b></p></h4>
+        <ol style="list-style-type: square;">
+        <li><b><a href="https://gitlab.com/srikeshav/reddit-clone">Social Sphere(Main Project)</a></b><br>
+          <span>-> Worked on using [java, Eclipse IDE, Spring, Angular, HTML, typescript, VsCode, 
+            MySQL]</span><br></li>
+        <li><b><a href="https://github.com/shaikarif298/project/blob/main/Student.java">Java Project on Student Management System</a></b><br>
+          <span>-> Worked on using [java, Eclipse IDE, JDBC, MySQL]</span><br></li>
+        <li><b><a href="IRCTC website skeleton.html">IRCTC website skeleton</a></b><br>
+          <span>-> Worked on using [HTML, CSS, VsCode, Bootstrap, Google images]</span><br></li>
+        <li><b><a href="register.html">Sample Register Form</a></b><br>
+          <span>-> Worked on using [HTML, CSS, VsCode, Bootstrap]</span><br></li>
+        <li><b><a href="Sample Website for Mobile.html">Sample Website for Mobile</a></b><br>
+          <span>-> Worked on using [HTML, CSS, VsCode, Bootstrap]</span><br></li>
+        <li><b><a href="roi_calculater.html">Roi Calculater</a></b><br>
+          <span>-> Worked on using [HTML, CSS, VsCode, Bootstrap, JavaScript]</span><br></li>
+      </ol>
+      </div>
+      <hr style="background-color: black;">
+
+      <div class="Skills">
+        <h4><p class="badge badge-primary"><b>Skills</b></p></h4>
+        <table style="margin: 10px;">
+          <tr>
+            <td> <br> </td>
+            <td> 
+            <p>Java</p>
+            <div class="progress" style="width: 100px;">
+            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+            </div></div>
+            </td>
+            <td>
+              <p> PYTHON</p>
+              <div class="progress" style="width: 100px;">
+              <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+              </div></div>
+            </td>
+            <td>
+            <p> MySql</p>
+            <div class="progress" style="width: 100px;">
+            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+            </div></div>
+            </td>
+            <td>
+              <p> HTML</p>
+              <div class="progress" style="width: 100px;">
+              <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+              </div></div>
+            </td>
+            <td>
+              <p> CSS</p>
+              <div class="progress" style="width: 100px;">
+              <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+              </div></div>
+            </td>
+            <td>
+              <p> JDBC</p>
+              <div class="progress" style="width: 100px;">
+              <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div></div>
+            </td>            <td>
+              <p> Spring Boot</p>
+              <div class="progress" style="width: 100px;">
+              <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+              </div></div>
+            </td>            <td>
+              <p> Angular</p>
+              <div class="progress" style="width: 100px;">
+              <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+              </div></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <hr style="background-color: black;">
+
+      <h4><p class="badge badge-primary"><b>Certificates</b></p></h4>
+
+      <div class="slider">
+        <span id="slide-1"></span>
+        <span id="slide-2"></span>
+        <span id="slide-3"></span>
+        <div class="image-container">
+          <img src="https://drive.google.com/thumbnail?id=1FYM4p6A7uneWddfA5ChAGN-fncuB-VG4&sz=w1000" class="slide" width="700" height="400" />
+          <img src="https://drive.google.com/thumbnail?id=1Bf0EjrEkjZBfEPUgeXv-ihb5xfNzSOpS&sz=w1000" class="slide" width="700" height="400" />
+          <img src="https://drive.google.com/thumbnail?id=1MwvDKvbeSoINxV_0MfRVcpzq7xT4CsYi&sz=w1000" class="slide" width="700" height="400" />
+        </div>
+        <div class="buttons">
+          <a href="#slide-1"></a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
+        </div>
+      </div>
+   
+      
+    </div>
+    <button type="button" class="btn btn-primary btn-lg btn-block"><a href="#top" style="color: red;">Back to top</a></button>
+
+  </body>
+</html>
